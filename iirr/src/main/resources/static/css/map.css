@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+#map {
+	height: 500px;
+	width: 100%;
+	padding-bottom: 15px;
+}
+
+.ol-viewport {
+	border: 1px solid #bfb7b9;
+	border-radius: 0.25rem;
+}
+
+.layer-switcher.shown {
+	max-height: 465px;
+}
+
+/* #legend{
+	    z-index: 11;
+		padding: 4px 8px;
+		border: 2px solid grey;
+	    position: absolute;
+		bottom: 500px;
+		height: 40%;
+        overflow: scroll;
+        width:15%; 
+        left: 0%;
+		background-color: #ffffff;
+		font-weight: bold;
+		margin-left:5px;
+	  }   */
+#viewDiv {
+	padding: 0;
+	margin: 0;
+	height: 80%;
+	width: 100%;
+}
+
+#timeSlider {
+	position: absolute;
+	left: 10%;
+	right: 10%;
+	bottom: 330px;
+}
+
+#titleDiv {
+	padding: 10px;
+	font-weight: 36;
+	text-align: center;
+}
